@@ -9,3 +9,10 @@ Fork this repo, add your solution and documentation on how to compile and run yo
 Obviously, we are looking for a fresh solution, not based on others' code.
 
 
+Use go build compoundword.go or go run compoundword.go.
+
+The program will look for a file in the same directory named word.list by default.
+Use -f filename to specify a different file.
+-t will cause the program to use the trie based implementation instead of the original.
+-time will cause to program to also output the run time of the implementation but does
+not include the time to load the list from the file.
